@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.seleniumhq.selenium_java.pageObjects.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="DataProviderTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.seleniumhq.selenium_java.pageObjects.DataProviderTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="errorValidation" invocation-numbers="1 1 1"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- com.seleniumhq.selenium_java.pageObjects.DataProviderTest -->
+    </classes>
+  </test> <!-- DataProviderTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
