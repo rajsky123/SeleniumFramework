@@ -37,7 +37,7 @@ public class DataProviderTest extends BaseTest{
 }
 	@DataProvider (name = "getData")
     public Object[][] getData(){ 
-    return new Object[][] {{"ravikhan@academy.com", "Kingkhan@007" , "IPHONE 13 PRO"}, {"2kingkhan@academy.com", "Kingkhan@123", "IPHONE 13 PRO"}};
+    return new Object[][] {{"ravikhan@academy.com", "Kingkhan@007" , "IPHONE 13 PRO"}, {"1kingkhan@academy.com", "Kingkhan@123", "IPHONE 13 PRO"}};
     }
 
 	
